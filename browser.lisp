@@ -77,6 +77,6 @@
 ;;;
 
 ;;; If passing custom options frequently, set these
-(defparameter *default-browser-command* :chrome)
-(defparameter *default-browser-options* *default-chrome-options*)
+(defvar *default-browser-command* :chrome)
+(defvar *default-browser-options* *default-chrome-options*)
 
